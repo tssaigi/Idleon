@@ -1,0 +1,2 @@
+"""GamingIdleon sprite clicker."""
+

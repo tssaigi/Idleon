@@ -1,0 +1,541 @@
+{
+  "settings": {
+    "threshold": 0.48,
+    "min_scale": 0.2,
+    "max_scale": 2.0,
+    "scale_step": 0.5,
+    "max_matches_per_template": 0,
+    "max_clicks_per_cycle": 0,
+    "scan_interval": 0.0,
+    "cooldown_seconds": 0.0,
+    "start_delay": 3.0,
+    "move_duration_min": 0.1,
+    "move_duration_max": 0.22,
+    "mouse_speed": 2.0,
+    "jitter_pixels": 4,
+    "dedupe_distance_ratio": 0.5,
+    "edge_blur_size": 3,
+    "edge_dilate_iterations": 1,
+    "fertilizer_check_interval": 3,
+    "fertilizer_toggle_delay": 0.65,
+    "upgrade_delay": 0.85,
+    "bits_retry_interval": 0.25,
+    "affordable_margin": 1.2,
+    "sprinkler_interval": 1,
+    "sprinkler_growth_delay": 0.3,
+    "rotation_max_degrees": 18.0,
+    "rotation_step": 6.0
+  },
+  "calibration": {
+    "field_rect": {
+      "left": 0.038834951456310676,
+      "top": 0.20563381771262984,
+      "width": 0.7173678532901834,
+      "height": 0.5404834803392771
+    },
+    "bits_rect": {
+      "left": 0.8015102481121898,
+      "top": 0.17506662859318486,
+      "width": 0.1186623516720604,
+      "height": 0.048629619053662455
+    },
+    "fertilizer_button_rect": {
+      "left": 0.7756202804746495,
+      "top": 0.2403692598938173,
+      "width": 0.18446601941747573,
+      "height": 0.07224971973686994
+    },
+    "fertilizer_cost_1_rect": {
+      "left": 0.17799352750809064,
+      "top": 0.4779596844131396,
+      "width": 0.07011866235167206,
+      "height": 0.03612485986843497
+    },
+    "fertilizer_purchase_1_rect": {
+      "left": 0.2588996763754045,
+      "top": 0.4849067728493771,
+      "width": 0.06472491909385113,
+      "height": 0.022230682995959983
+    },
+    "fertilizer_cost_2_rect": {
+      "left": 0.3861920172599784,
+      "top": 0.47934910210038706,
+      "width": 0.0679611650485437,
+      "height": 0.031956606806692475
+    },
+    "fertilizer_purchase_2_rect": {
+      "left": 0.46817691477885653,
+      "top": 0.48907502591111957,
+      "width": 0.05717367853290183,
+      "height": 0.016673012246969987
+    },
+    "fertilizer_purchase_1_ref": "iVBORw0KGgoAAAANSUhEUgAAAGAAAAAoCAAAAAAk+KDlAAABW0lEQVRIDbXBgUHjMADAQGn/ofWOHQMtpVCe3MnF5GJyMbmYXEzexCDxkQyxSJyEWIRYJE6yyBYHiRsSjxgnic3YZJItJuOW8YixGZuxySSnuCPEJsQixEniZGwSIJMs8fdkkCX+ngyyxN+TQZZ4RiDeGfckTsYkgyzxCuMHZJAlXmH8gAyyxCuMb8kkS3xF4p7xLZlkiVcY35JJlvhrMskSrzMeMUBOssQiscgQ92SIg/GIBHKSJRaJRYh3xiRDHIxHJJCTLHEyFiHeSRxkiIMQn0kgJ+OnjFsST8jBeMrYjFsST8jBeMrYjJfIQab4grEZr5BJpviC8UsyyRL/SYiPZJIlPhPi12SSJT4T4tdkkiU+E4iXGJtMcorJeCNDTMZzEmCABMgkb+KOHOJrxi1jk0nexB2ZYjMGY5O4YWwyyUcxCASyxSTEYGxyioMMcZCTXEwuJheTi/0DEBB1KSOXuuUAAAAASUVORK5CYII=",
+    "fertilizer_purchase_2_ref": "iVBORw0KGgoAAAANSUhEUgAAAGAAAAAoCAAAAAAk+KDlAAAB6ElEQVRIDbXBAXYiBwJEMf37H7pC0xgTwIz3ZUcKo5HRHHIxMnIxGjmMjDAywsjIYSTMVeZLLkZGLkZDLkZGGBlhZOQwEuYqcxdDhhiaixgyZGguMmTkYi6KuWkODTFkiCFDzJfMl8xNLuYQ87PMf5O5a55k/pvMXfN/l7lrvsR8CXMT8yXzVswhc9f8SeYXmpvMXfOoedH8RnOTuWseNS+am+Y3Mqcwj5qb5qa5aW6au+ZfypzCPGpumpvmprlpfhCZU5hHzYvmfxCZU5hHzYvmN5pDZE5hHjUvmm+N5o3mVOYU5pSreZGrOTQ/aE5lTmFOuZoXuZpD84OYQ5lTmFOu5i5zyGGumkPzLOZQ5hTmlMN8yxxymKvm0DyLOZS5iTnlYh5kDjnMIXNonsUcyrzKvBdzE3PRPGtOZR5kPmruYt5rbjKH5qp50DxpvjV/lDk0V81No3nSfGv+KHNorpqPmm/NZ5E5NL/S/EZziMxVhuZF5q75SS7mqrlK5pSLedCcwrzVfAlzCkMyNzEPMqcwb8WcwpzCHGLey2E+ivkk5r1czQdhPgnzVg7zUcwnuZhXOc1HMZ/kap7lNHfNi5ifJVdz1xxymrvMs5h/ydwlX+aQZyM3c5GruQhzkTnkSf6y/GX5y/4BGTTlGcGiJw4AAAAASUVORK5CYII=",
+    "fertilizer_cost_3_rect": {
+      "left": 0.5922330097087379,
+      "top": 0.4821279374748821,
+      "width": 0.06364617044228695,
+      "height": 0.027788353744949975
+    },
+    "fertilizer_purchase_3_rect": {
+      "left": 0.6752966558791802,
+      "top": 0.48768560822387214,
+      "width": 0.05285868392664509,
+      "height": 0.018062429934217486
+    },
+    "fertilizer_purchase_3_ref": "iVBORw0KGgoAAAANSUhEUgAAAGAAAAAoCAAAAAAk+KDlAAAB80lEQVRIDbXBCZLbOADAQOD/j8aSuqix7MpkK+6WLxMCZIhB4iBDHATiJFPsZIqdDLEzNgLxQojFWATiJBAHgTgYGyFeCbEYi0CcBOIkxMHYSZwEAiQGgTgIBAgxSAxCgMRgDDIYO+MiEBeBOMgQSAxCLBKDMcgg8b9I/IbEV0l8YPwDxpNsYidD7GSIxVgkFgHjQWIwniR+yRiMB2MyJuNG4sH4yHgwJuNJYjIwdhKLxGI8GC+Mg7ExMA4SF4mTGA/GC+NgbIwbicU4ifFgfGRsjBuJxViMB+Mjicm4kViMxXiQ2BkvJAaJyZgkFmMyBuNBNoHxQg4xGZPEYkwyGQ+yCYwXsouNMUksxiST8SBT3ElMMsVOYpJYjEkm40GG+EGIQabYSQxCLMYkk4HxgxAnY2cMEovEJLEYkzEYGD8YOwNjZwwSi8TGWIzFwPjB2Ehg3EksEhtjMRYDA4yTsTMwwDgYNxIbYzFOYjwYHxk3xs5YjMX4A+PGwMC4MxZjkQBjMP7IwMC4Mw5CbCTAmGSIi0DsZIhfEYiDDMY7MsQ/YLwjQ/wN4x3jHZniLxjvGJNALDLFRiAuxjsGMsRBBok35BAPQlyEmIx3BOIiMckhFmMS4iLEZFyE2AnERWKSU5yEGIS4CDEZFyF28mXyZfJl/wHNSO8RLqX0IgAAAABJRU5ErkJggg==",
+    "sprinkler_rect": {
+      "left": 0.6828478964401294,
+      "top": 0.6613628191298094,
+      "width": 0.038834951456310676,
+      "height": 0.06530263130063245
+    },
+    "imports_rect": {
+      "left": 0.639697950377562,
+      "top": 0.20285498233813484,
+      "width": 0.11758360302049622,
+      "height": 0.1125428326670474
+    }
+  },
+  "templates": [
+    {
+      "name": "Berri Bush_f000",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Berri Bush.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Berri Bush_f001",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Berri Bush.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Berri Bush_f002",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Berri Bush.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Berri Bush_f003",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Berri Bush.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Berri Bush_f004",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Berri Bush.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Berri Bush_f005",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Berri Bush.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Berri Bush_f006",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Berri Bush.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Berri Bush_f007",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Berri Bush.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Blossom_f000",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Blossom.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Blossom_f001",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Blossom.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Blossom_f002",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Blossom.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Blossom_f003",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Blossom.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Blossom_f004",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Blossom.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Blossom_f005",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Blossom.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Blossom_f006",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Blossom.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Blossom_f007",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Blossom.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Bonsai_f000",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Bonsai.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Bonsai_f001",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Bonsai.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Bonsai_f002",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Bonsai.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Bonsai_f003",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Bonsai.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Bonsai_f004",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Bonsai.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Bonsai_f005",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Bonsai.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Bonsai_f006",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Bonsai.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Bonsai_f007",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Bonsai.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Cactus_f000",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Cactus.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Cactus_f001",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Cactus.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Cactus_f002",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Cactus.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Cactus_f003",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Cactus.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Cactus_f004",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Cactus.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Cactus_f005",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Cactus.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Cactus_f006",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Cactus.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Cactus_f007",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Cactus.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Chemical_f000",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Chemical.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Chemical_f001",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Chemical.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Chemical_f002",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Chemical.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Chemical_f003",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Chemical.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Chemical_f004",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Chemical.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Chemical_f005",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Chemical.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Chemical_f006",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Chemical.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Chemical_f007",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Chemical.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Evergreen_f000",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Evergreen.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Evergreen_f001",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Evergreen.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Evergreen_f002",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Evergreen.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Evergreen_f003",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Evergreen.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Evergreen_f004",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Evergreen.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Evergreen_f005",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Evergreen.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Evergreen_f006",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Evergreen.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Evergreen_f007",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Evergreen.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Fungi_f000",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Fungi.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Fungi_f001",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Fungi.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Fungi_f002",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Fungi.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Fungi_f003",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Fungi.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Fungi_f004",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Fungi.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Fungi_f005",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Fungi.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Fungi_f006",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Fungi.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Fungi_f007",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Fungi.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Sprouts_f000",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Sprouts.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Sprouts_f001",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Sprouts.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Sprouts_f002",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Sprouts.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Sprouts_f003",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Sprouts.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Sprouts_f004",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Sprouts.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Sprouts_f005",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Sprouts.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Sprouts_f006",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Sprouts.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Sprouts_f007",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Sprouts.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Voraci_f000",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Voraci.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Voraci_f001",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Voraci.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Voraci_f002",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Voraci.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Voraci_f003",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Voraci.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Voraci_f004",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Voraci.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Voraci_f005",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Voraci.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Voraci_f006",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Voraci.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Voraci_f007",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Voraci.gif",
+      "priority": 0,
+      "kind": "plant"
+    },
+    {
+      "name": "Squirrel",
+      "source": "/Volumes/Sovereignty/GamingIdleon/plants/Other/Squirrel.png",
+      "priority": -99,
+      "kind": "squirrel"
+    }
+  ],
+  "selected_window_id": 9246
+}

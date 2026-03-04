@@ -1,0 +1,9 @@
+customtkinter==5.2.2
+numpy==2.2.6
+opencv-python==4.13.0.92
+pillow==12.1.1
+pytesseract==0.3.13
+pyautogui==0.9.54
+pyobjc-framework-Vision==12.1
+rapidocr==3.6.0
+onnxruntime==1.23.2
